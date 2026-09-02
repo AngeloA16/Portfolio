@@ -76,12 +76,12 @@ const SocialLink = memo(({ icon: Icon, link, label }) => (
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
-const WORDS = ["Network & Telecom Student", "Tech Enthusiast"];
+const WORDS = ["Administrative Support", "Tech Enthusiast"];
 const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
 const SOCIAL_LINKS = [
-  { icon: Github, link: "https://github.com/EkiZR", label: "GitHub Profile" },
-  { icon: Linkedin, link: "https://www.linkedin.com/in/ekizr/", label: "LinkedIn Profile" },
-  { icon: Instagram, link: "https://www.instagram.com/ekizr_/?hl=id", label: "Instagram Profile" }
+  { icon: Github, link: "https://github.com/AngeloA16", label: "GitHub Profile" },
+  { icon: Linkedin, link: "https://www.linkedin.com/in/angelo-advincula-474701324/", label: "LinkedIn Profile" },
+  { icon: Instagram, link: "https://www.instagram.com/angelo.homiezyd.16/", label: "Instagram Profile" }
 ];
 
 const Home = () => {
@@ -140,25 +140,25 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Eki Zulfar Rachman — Frontend Web Developer</title>
-        <meta name="description" content="Website resmi Eki Zulfar Rachman, Front-End Web Developer. Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan." />
+        <title>Angelo Delos Santos Advincula — Frontend Web Developer</title>
+        <meta name="description" content="Official Website and Portfolio of Angelo Delos Santos Advincula, Front-End Web Developer." />
      <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://ekizr.com" />
-        <meta property="og:title" content="Eki Zulfar Rachman — Frontend Web Developer" />
-     <meta property="og:description" content="Website resmi dan portofolio Eki Zulfar Rachman, Front-End Web Developer." />
+        <meta property="og:title" content="Angelo Delos Santos Advincula — Frontend Web Developer" />
+     <meta property="og:description" content="Official Website and Portfolio of Angelo Delos Santos Advincula, Front-End Web Developer." />
         <meta property="og:url" content="https://ekizr.com" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{`
           {
             "@context": "https://schema.org",
             "@type": "Person",
-            "name": "Eki Zulfar Rachman",
+            "name": "Angelo Delos Santos Advincula",
             "jobTitle": "Frontend Developer",
             "url": "https://ekizr.com",
             "sameAs": [
-              "https://github.com/EkiZR",
-              "https://www.linkedin.com/in/ekizr/",
-              "https://www.instagram.com/ekizr_/"
+              "https://github.com/AngeloA16",
+              "https://www.linkedin.com/in/angelo-advincula-474701324/",
+              "https://www.instagram.com/angelo.homiezyd.16/"
             ]
           }
         `}</script>
@@ -188,7 +188,7 @@ const Home = () => {
                   <p className="text-base md:text-lg text-gray-400 max-w-xl leading-relaxed font-light"
                     data-aos="fade-up"
                     data-aos-delay="1000">
-                    Menciptakan Website Yang Inovatif, Fungsional, dan User-Friendly untuk Solusi Digital.
+                    Creating Innovative, Functional, and User-Friendly Websites for Digital Solutions.
                   </p>
 
                   {/* Tech Stack */}

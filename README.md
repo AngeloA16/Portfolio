@@ -245,9 +245,9 @@ INSERT INTO public.portfolio_comments (
   created_at
 )
 SELECT
-  'developed by ekizr. This project is open-source and free to use.',
-  'ekizr',
-  'https://egwzigagwyrmwjsrebzx.supabase.co/storage/v1/object/public/profile-images/profile-images/1771939421615_xx2q8hgya6e.jpeg',
+  'developed by AngeloA16. This project is open-source and free to use.',
+  'AngeloA16',
+  'https://fqgjrriqehxvnwtlavqx.supabase.co/storage/v1/object/public/V1/Profile_Image_uq0ldcuq0ldcuq0l.jpeg',
   true,
   now()
 WHERE NOT EXISTS (
@@ -269,7 +269,7 @@ Go to **Table Editor → portfolio_comments → Enable Realtime**.
 
 ```sql
 INSERT INTO public.profiles (id, username, role)
-VALUES ('USER_UUID', 'eki', 'admin');
+VALUES ('USER_UUID', 'A16', 'admin');
 ```
 
 ### 7. Run Locally
